@@ -1,0 +1,22 @@
+{
+    "name": "onfire/silverstripe-sitebanner",
+    "description": "Site-wide banners activated through the CMS, SS3 backup of nzta/silverstripe-sitebanner v1.0",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/onfire/silverstripe-sitebanner",
+    "keywords": ["silverstripe", "banner", "cms"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/onfire/silverstripe-sitebanner/issues"
+    },
+    "require": {
+        "silverstripe/framework": "~3.4",
+		"silverstripe/cms": "~3.4"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~3.7"
+    },
+    "suggest": {
+        "heyday/silverstripe-versioneddataobjects": "Allows previewing of site banners",
+        "undefinedoffset/sortablegridfield": "Allows sorting of site banners"
+    }
+}
